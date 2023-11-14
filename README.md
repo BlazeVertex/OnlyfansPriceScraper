@@ -7,7 +7,8 @@ Deze repository bevat een Python-script dat Selenium gebruikt voor webscraping-d
 
 # Usage
 **English**:
-[GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+
+You need [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 To use this script, you'll need to add the GeckoDriver to your system's PATH. GeckoDriver is a link between your Selenium tests and the Firefox browser, which is used in this script. Here's how you can do it:
 
     Download the appropriate version of GeckoDriver for your system from the releases page on GitHub.
@@ -24,7 +25,8 @@ user_agent = your_user_agent_here``
 ``Replace your_user_agent_here with the user agent string you want to use.``
 
 **Dutch**:
-[GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+
+je hebt dit nodig [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 Om dit script te gebruiken, moet u de GeckoDriver toevoegen aan het pad van uw systeem. GeckoDriver is een link tussen uw Selenium-tests en de Firefox-browser, die in dit script wordt gebruikt. Hier is hoe u dit kunt doen:
 
     Download de juiste versie van GeckoDriver voor uw systeem van de releases-pagina op GitHub.
