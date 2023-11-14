@@ -24,6 +24,22 @@ user_agent = your_user_agent_here``
 
 ``Replace your_user_agent_here with the user agent string you want to use.``
 
+Open a terminal or command prompt.
+
+Navigate to the directory containing your requirements.txt file:
+
+bash
+
+``cd path/to/your/project``
+
+Install the required packages with this command:
+
+bash
+
+    pip install -r requirements.txt
+
+That's it! Pip will now install all the required packages as specified in the requirements.txt file.
+
 **Dutch**:
 
 je hebt dit nodig [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
@@ -41,3 +57,19 @@ U moet ook een user agent toevoegen aan het instellingenbestand. Dit is een stri
 user_agent = uw_user_agent_hier``
 
 ``Vervang uw_user_agent_hier door de user agent string die u wilt gebruiken.``
+
+Dan open je een terminal of command prompt.
+
+Navigeer naar de map met je requirements.txt:
+
+bash
+
+``cd pad/naar/je/project``
+
+Installeer de vereiste pakketten met dit commando:
+
+bash
+
+    pip install -r requirements.txt
+
+Dat is het! Pip zal nu alle vereiste pakketten installeren zoals gespecificeerd in het requirements.txt bestand.
