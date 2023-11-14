@@ -1,0 +1,2 @@
+prompt_toolkit==3.0.40
+selenium==4.15.2
