@@ -40,6 +40,14 @@ bash
 
 That's it! Pip will now install all the required packages as specified in the requirements.txt file.
 
+To use the program, make sure you are in the correct directory using the terminal or command prompt. Then, type the following command:
+
+bash
+
+``python project_name.py``
+
+Replace "project_name.py" with the actual name of your Python file. This command will execute the Python script, and the program should run as intended.
+
 **Dutch**:
 
 je hebt dit nodig [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
@@ -73,3 +81,11 @@ bash
     pip install -r requirements.txt
 
 Dat is het! Pip zal nu alle vereiste pakketten installeren zoals gespecificeerd in het requirements.txt bestand.
+
+Om het programma te gebruiken, zorg ervoor dat je in de juiste map bent via de terminal of opdrachtprompt. Typ vervolgens het volgende commando:
+
+bash
+
+``python project_naam.py``
+
+Vervang "project_naam.py" door de daadwerkelijke naam van je Python-bestand. Met dit commando wordt het Python-script uitgevoerd, en het programma zou zoals bedoeld moeten worden uitgevoerd.
