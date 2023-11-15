@@ -5,6 +5,9 @@ This repository houses a Python script that employs Selenium for web scraping. T
 Deze repository bevat een Python-script dat Selenium gebruikt voor webscraping-doeleinden. Het script haalt prijsinformatie op uit opgegeven profielen. Gebruikers kiezen een taal (Engels of Nederlands) via een command-line interface. Het script navigeert vervolgens door opgegeven profiel-URL's, haalt prijs- en limited offer-informatie op en geeft de resultaten uit naar een CSV-bestand.
 
 
+❌ *Busy fixing some minor bugs with excel and the linkconfigurations* ❌
+
+
 # Usage
 **English**:
 
