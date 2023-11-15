@@ -8,7 +8,7 @@ Deze repository bevat een Python-script dat Selenium gebruikt voor webscraping-d
 # Usage
 **English**:
 
-You need [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+You need Firefox and [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 To use this script, you'll need to add the GeckoDriver to your system's PATH. GeckoDriver is a link between your Selenium tests and the Firefox browser, which is used in this script. Here's how you can do it:
 
     Download the appropriate version of GeckoDriver for your system from the releases page on GitHub.
@@ -48,9 +48,11 @@ bash
 
 Replace "project_name.py" with the actual name of your Python file. This command will execute the Python script, and the program should run as intended.
 
+Side note: **For now, the CSV is overwritten after each scan. Copy it elsewhere for safety if needed.**
+
 **Dutch**:
 
-je hebt dit nodig [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+je hebt Firefox nodig en [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 Om dit script te gebruiken, moet u de GeckoDriver toevoegen aan het pad van uw systeem. GeckoDriver is een link tussen uw Selenium-tests en de Firefox-browser, die in dit script wordt gebruikt. Hier is hoe u dit kunt doen:
 
     Download de juiste versie van GeckoDriver voor uw systeem van de releases-pagina op GitHub.
@@ -89,3 +91,5 @@ bash
 ``python project_naam.py``
 
 Vervang "project_naam.py" door de daadwerkelijke naam van je Python-bestand. Met dit commando wordt het Python-script uitgevoerd, en het programma zou zoals bedoeld moeten worden uitgevoerd.
+
+Ter info: **Verloopig word de cvs na elke scan herschreven kopieer voor de zekerheid ergens anders indien nodig**
