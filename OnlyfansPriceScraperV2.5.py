@@ -9,6 +9,7 @@ import csv
 import argparse
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
+from urllib.parse import urlparse
 
 # Maak een ArgumentParser object
 parser = argparse.ArgumentParser(description='Select the language for your Python project.')
@@ -122,18 +123,23 @@ else:
  print(f"No old data to remove in {output_file}")
 
 with open(output_file, 'w', newline='') as f:
- writer = csv.writer(f, delimiter=',')
- writer.writerow([language_dict.get('link', 'Link'), 
-                   language_dict.get('price', 'Price'), 
-                   language_dict.get('limited_offer', 'Limited Offer')])
+   writer = csv.writer(f, delimiter=',')
+   writer.writerow([language_dict.get('link', 'Link'), 
+                    language_dict.get('price', 'Price'), 
+                    language_dict.get('limited_offer', 'Limited Offer')])
 
- for url in urls:
-   profile_url, price, limited_offer = get_onlyfans_prices(url)
-   if args.language == 'english':
-       print('Price found at {}: {}'.format(url, price))
-       print('Limited Offer found at {}: {}'.format(url, limited_offer))
-   else:
-     if args.language == 'dutch':
-       print('Prijs gevonden op {}: {}'.format(url, price))
-       print('Limited Offer gevonden op {}: {}'.format(url, limited_offer))
-   writer.writerow([profile_url, price, limited_offer])
+   from urllib.parse import urlparse
+
+   # Filter alleen de geldige URL's
+   valid_urls = [url for url in urls if url and urlparse(url).netloc]
+
+   for url in valid_urls:
+       profile_url, price, limited_offer = get_onlyfans_prices(url)
+       if args.language == 'english':
+           print('Price found at {}: {}'.format(url, price))
+           print('Limited Offer found at {}: {}'.format(url, limited_offer))
+       else:
+           if args.language == 'dutch':
+               print('Prijs gevonden op {}: {}'.format(url, price))
+               print('Limited Offer gevonden op {}: {}'.format(url, limited_offer))
+       writer.writerow([profile_url, price, limited_offer])
