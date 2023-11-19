@@ -3,6 +3,9 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
+Todo list:
+-[ ] Make in settings.ini that you are able to choose if you want to create every time a new file or either way keep as is. (overwrites old data every time)
+
 # OnlyfansPriceScraperV2.5
 This repository houses a Python script that employs Selenium for web scraping. The script extracts pricing details from specified profiles, allowing users to choose between English and Dutch via a command-line interface. It navigates through provided profile URLs, extracts price and limited offer information, and outputs the results to a CSV file.
 
@@ -104,4 +107,4 @@ bash
 
 Vervang "project_naam.py" door de daadwerkelijke naam van je Python-bestand. Met dit commando wordt het Python-script uitgevoerd, en het programma zou zoals bedoeld moeten worden uitgevoerd.
 
-Ter info: **Verloopig word de cvs na elke scan herschreven kopieer voor de zekerheid ergens anders indien nodig**
+Ter info: **Verloopig word de cvs na elke scan herschreven en kopieer voor de zekerheid ergens anders indien nodig**
