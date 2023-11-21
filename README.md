@@ -6,19 +6,19 @@
 Todo list:
 - [ ] Make in settings.ini that you are able to choose if you want to create every time a new file or either way keep as is. (overwrites old data every time)
 
-# OnlyfansPriceScraperV2.5
+# OnlyfansPriceScraperV2.6.1
 This repository houses a Python script that employs Selenium for web scraping. The script extracts pricing details from specified profiles, allowing users to choose between English and Dutch via a command-line interface. It navigates through provided profile URLs, extracts price and limited offer information, and outputs the results to a CSV file.
 
-# Nederlandse Repositorium Beschrijving:
+# Nederlandse Beschrijving:
 Deze repository bevat een Python-script dat Selenium gebruikt voor webscraping-doeleinden. Het script haalt prijsinformatie op uit opgegeven profielen. Gebruikers kiezen een taal (Engels of Nederlands) via een command-line interface. Het script navigeert vervolgens door opgegeven profiel-URL's, haalt prijs- en limited offer-informatie op en geeft de resultaten uit naar een CSV-bestand.
 
-## Fixes in V2.5
-- [x] Fixed an issue in the URLs configuration where empty or unfilled URL entries were causing errors.
-- [ ] Something with Excel not fixed yet.
+## Fixes in V2.6.1
+- [x] Excel Conversion: All data is now converted to Excel format instead of CSV, enhancing compatibility.
+Updated README on GitHub.
 
-## Verbeteringen in V2.5
-- [x] Een probleem opgelost in de URL-configuratie waarbij lege of niet-ingevulde URL-vermeldingen fouten veroorzaakten.
-- [ ] Iets met Excel is nog niet opgelost.
+## Verbeteringen in V2.6.1
+- [x] Excel Conversie: Alle gegevens worden nu omgezet naar het Excel-formaat in plaats van CSV, wat de compatibiliteit verbetert.
+README bijgewerkt op GitHub.
 
 # Usage
 **English**:
@@ -63,7 +63,9 @@ bash
 
 Replace "project_name.py" with the actual name of your Python file. This command will execute the Python script, and the program should run as intended.
 
-Side note: **For now, the CSV is overwritten after each scan. Copy it elsewhere for safety if needed.**
+Side note: **For now, the Excel file is overwritten after each scan. Copy it elsewhere for safety if needed.**
+
+``It is a well-known limitation of Excel that hyperlinks are not directly active. This is a security measure to prevent potentially harmful hyperlinks from opening automatically. The user needs to perform a second click to activate the hyperlink. This is a default setting in Excel.``
 
 **Dutch**:
 
@@ -107,4 +109,6 @@ bash
 
 Vervang "project_naam.py" door de daadwerkelijke naam van je Python-bestand. Met dit commando wordt het Python-script uitgevoerd, en het programma zou zoals bedoeld moeten worden uitgevoerd.
 
-Ter info: **Verloopig word de cvs na elke scan herschreven en kopieer voor de zekerheid ergens anders indien nodig**
+Ter info: **Verloopig word de Excel na elke scan herschreven en kopieer voor de zekerheid ergens anders indien nodig**
+
+``Het is een bekende beperking van Excel dat hyperlinks niet direct actief zijn. Dit is een veiligheidsmaatregel om te voorkomen dat mogelijk schadelijke hyperlinks automatisch worden geopend. De gebruiker moet een tweede klik uitvoeren om de hyperlink te activeren. Dit is een standaardinstelling in Excel.``
