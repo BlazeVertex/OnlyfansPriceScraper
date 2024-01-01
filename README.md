@@ -3,14 +3,31 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
+[Repository Description](#repository-description)
+
+[Repository Description in Dutch](#nederlandse-beschrijving)
+
+[Repository Description in French](#description-en-francais)
+
+[Repository Description in German](#beschreibung-auf-deutsch)
+
 Todo list:
 - [ ] Make in settings.ini that you are able to choose if you want to create every time a new file or either way keep as is. (overwrites old data every time)
-
+<span id="repository-description"></span>
 # OnlyfansPriceScraperV2.6.1
 This repository houses a Python script that employs Selenium for web scraping. The script extracts pricing details from specified profiles, allowing users to choose between English and Dutch via a command-line interface. It navigates through provided profile URLs, extracts price and limited offer information, and outputs the results to a Excel file.
 
+<span id="nederlandse-beschrijving"></span>
 # Nederlandse Beschrijving:
 Deze repository bevat een Python-script dat Selenium gebruikt voor webscraping-doeleinden. Het script haalt prijsinformatie op uit opgegeven profielen. Gebruikers kiezen een taal (Engels of Nederlands) via een command-line interface. Het script navigeert vervolgens door opgegeven profiel-URL's, haalt prijs- en limited offer-informatie op en geeft de resultaten uit naar een excel bestand.
+
+<span id="description-en-francais"></span>
+# Description en français:
+Ce référentiel contient un script Python qui utilise Selenium pour le web scraping. Le script extrait les détails des prix à partir de profils spécifiés, permettant aux utilisateurs de choisir entre l'anglais, le néerlandais, le français et l'allemand via une interface en ligne de commande. Il navigue à travers les URL de profil fournies, extrait les informations sur les prix et les offres limitées, puis produit les résultats dans un fichier Excel.
+
+<span id="beschreibung-auf-deutsch"></span>
+# Beschreibung auf Deutsch:
+Dieses Repository enthält ein Python-Skript, das Selenium für das Web-Scraping verwendet. Das Skript extrahiert Preisdetails aus bestimmten Profilen und ermöglicht es Benutzern, zwischen Englisch, Niederländisch, Französisch und Deutsch über eine Befehlszeilenschnittstelle zu wählen. Es navigiert durch die bereitgestellten Profil-URLs, extrahiert Informationen zu Preisen und begrenzten Angeboten und gibt die Ergebnisse in einer Excel-Datei aus.
 
 ## Fixes in V2.6.1
 - [x] Excel Conversion: All data is now converted to Excel format instead of CSV, enhancing compatibility.
