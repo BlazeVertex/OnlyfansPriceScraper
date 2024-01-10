@@ -1,7 +1,11 @@
 > [!NOTE]
 > I used Python version 3.12.0
 
+> Current version V2.7.5
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+[View Changelog](./CHANGELOG.md)
 
 [Repository Description](#repository-description)
 
@@ -13,8 +17,10 @@
 
 Todo list:
 - [ ] Make in settings.ini that you are able to choose if you want to create every time a new file or either way keep as is. (overwrites old data every time)
+- [ ] Add usage in other languages in the readme file 
+      
 <span id="repository-description"></span>
-# OnlyfansPriceScraperV2.6.1
+# OnlyfansPriceScraper description
 This repository houses a Python script that employs Selenium for web scraping. The script extracts pricing details from specified profiles, allowing users to choose between English and Dutch via a command-line interface. It navigates through provided profile URLs, extracts price and limited offer information, and outputs the results to a Excel file.
 
 <span id="nederlandse-beschrijving"></span>
@@ -28,14 +34,6 @@ Ce référentiel contient un script Python qui utilise Selenium pour le web scra
 <span id="beschreibung-auf-deutsch"></span>
 # Beschreibung auf Deutsch:
 Dieses Repository enthält ein Python-Skript, das Selenium für das Web-Scraping verwendet. Das Skript extrahiert Preisdetails aus bestimmten Profilen und ermöglicht es Benutzern, zwischen Englisch, Niederländisch, Französisch und Deutsch über eine Befehlszeilenschnittstelle zu wählen. Es navigiert durch die bereitgestellten Profil-URLs, extrahiert Informationen zu Preisen und begrenzten Angeboten und gibt die Ergebnisse in einer Excel-Datei aus.
-
-## Fixes in V2.6.1
-- [x] Excel Conversion: All data is now converted to Excel format instead of CSV, enhancing compatibility.
-Updated README on GitHub.
-
-## Verbeteringen in V2.6.1
-- [x] Excel Conversie: Alle gegevens worden nu omgezet naar het Excel-formaat in plaats van CSV, wat de compatibiliteit verbetert.
-README bijgewerkt op GitHub.
 
 # Usage
 **English**:
