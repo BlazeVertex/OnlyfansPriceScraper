@@ -1,0 +1,22 @@
+{
+ "english": {
+ "language_set": "Language is set on English",
+ "no_limited_offer": "No limited offer found.",
+ "price_found": "Price found at"
+ },
+ "dutch": {
+ "language_set": "Taal is ingesteld op Nederlands",
+ "no_limited_offer": "Geen limited offer gevonden.",
+ "price_found": "Prijs gevonden op"
+ },
+ "french": {
+ "language_set": "La langue est r\u00e9gl\u00e9e sur le fran\u00e7ais",
+ "no_limited_offer": "Aucune offre limit\u00e9e trouv\u00e9e.",
+ "price_found": "Prix trouv\u00e9 \u00e0"
+ },
+ "german": {
+ "language_set": "Die Sprache ist auf Deutsch eingestellt",
+ "no_limited_offer": "Keine limitierte Angebote gefunden.",
+ "price_found": "Preis gefunden bei"
+ }
+}
