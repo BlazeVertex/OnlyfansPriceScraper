@@ -2,9 +2,9 @@
 
 [Updates in Nederlands](#Dutch-updates)
 
-[French mises à jour](French-mises-à-jour)
+[French mises à jour](#French-mises-à-jour)
 
-[German aktualisierung](German-aktualisierung)
+[German aktualisierung](#German-aktualisierung)
 
 <a id="English-updates"></a>
 ## Fixes in V2.7.5
