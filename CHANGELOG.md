@@ -6,7 +6,7 @@
 
 [German aktualisierung](German-aktualisierung)
 
-<span id="English updates"></span>
+<a id="English-updates"></a>
 ## Fixes in V2.7.5
 - [x] # Version 2.7.5 - Release Update
 
@@ -40,7 +40,7 @@ A nice bonus feature has been added! Now, column widths are automatically adjust
 
 We hope these changes enhance the usability of the project. Refer to the README file for updated documentation and further information.
 
-<span id="Dutch updates"></span>
+<a id="Dutch-updates"></a>
 ## Verbeteringen in V.2.7.5
 - [x] # Versie 2.7.5 - Release-update
 
@@ -74,7 +74,7 @@ Een leuke bonusfunctie is toegevoegd! Nu worden kolombreedtes automatisch aangep
 
 We hopen dat deze wijzigingen de bruikbaarheid van het project verbeteren. Raadpleeg de README-file voor bijgewerkte documentatie en verdere informatie.
 
-<span id="French mises à jour"></span>
+<a id="French-mises-à-jour"></a>
 ## Améliorations dans la version 2.7.5
 - [x] # Version 2.7.5 - Mise à jour de la version
 
@@ -108,7 +108,7 @@ Une fonctionnalité bonus agréable a été ajoutée ! Maintenant, les largeurs 
 
 Nous espérons que ces changements améliorent la convivialité du projet. Consultez le fichier README pour une documentation mise à jour et des informations supplémentaires.
 
-<span id="German aktualisierung"></span>
+<a id="German-aktualisierung"></a>
 ## Verbesserungen in V.2.7.5
 - [x] # Version 2.7.5 - Versionsupdate
 
