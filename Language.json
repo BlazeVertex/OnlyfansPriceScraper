@@ -1,22 +1,27 @@
 {
  "english": {
- "language_set": "Language is set on English",
- "no_limited_offer": "No limited offer found.",
- "price_found": "Price found at"
+    "language_set": "Language is set on English",
+    "no_limited_offer": "No limited offer found.",
+    "price_found": "Price found at"
  },
  "dutch": {
- "language_set": "Taal is ingesteld op Nederlands",
- "no_limited_offer": "Geen limited offer gevonden.",
- "price_found": "Prijs gevonden op"
+    "language_set": "Taal is ingesteld op Nederlands",
+    "no_limited_offer": "Geen limited offer gevonden.",
+    "price_found": "Prijs gevonden op"
  },
  "french": {
- "language_set": "La langue est r\u00e9gl\u00e9e sur le fran\u00e7ais",
- "no_limited_offer": "Aucune offre limit\u00e9e trouv\u00e9e.",
- "price_found": "Prix trouv\u00e9 \u00e0"
+    "language_set": "La langue est r\u00e9gl\u00e9e sur le fran\u00e7ais",
+    "no_limited_offer": "Aucune offre limit\u00e9e trouv\u00e9e.",
+    "price_found": "Prix trouv\u00e9 \u00e0"
  },
  "german": {
- "language_set": "Die Sprache ist auf Deutsch eingestellt",
- "no_limited_offer": "Keine limitierte Angebote gefunden.",
- "price_found": "Preis gefunden bei"
+    "language_set": "Die Sprache ist auf Deutsch eingestellt",
+    "no_limited_offer": "Keine limitierte Angebote gefunden.",
+    "price_found": "Preis gefunden bei"
+ },
+ "spanish": {
+    "language_set": "El idioma est\u00e1 configurado en Espa\u00f1ol.",
+    "no_limited_offer": "No se encontraron ofertas limitadas.",
+    "price_found": "Precio encontrado"
  }
 }
