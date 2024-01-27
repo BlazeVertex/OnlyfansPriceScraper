@@ -6,9 +6,13 @@
 
 [German aktualisierung](#German-aktualisierung)
 
+[Actualizaciones español](#Actualizaciones-español)
+
 <a id="English-updates"></a>
-## Fixes in V2.7.5
-- [x] # Version 2.7.5 - Release Update
+## Fixes in V2.7.6
+- [x] # Version 2.7.6 - Release Update
+> [!NOTE]
+> I updated this changelog so Spanish is added.
 
 We are pleased to announce some significant improvements and new features in this release of our project. Here is an overview of the changes:
 
@@ -20,7 +24,7 @@ We have ensured that language configuration is now stored in a JSON file. This o
 
 ### 2. Multilingual Support
 
-We proudly introduce multilingual support! Thanks to an added piece of code, the system now supports English, Dutch, French, and German.
+We proudly introduce multilingual support! Thanks to an added piece of code, the system now supports English, Dutch, French, German and Spanish.
 
 ### 3. Enhanced Price Display
 
@@ -41,8 +45,8 @@ A nice bonus feature has been added! Now, column widths are automatically adjust
 We hope these changes enhance the usability of the project. Refer to the README file for updated documentation and further information.
 
 <a id="Dutch-updates"></a>
-## Verbeteringen in V.2.7.5
-- [x] # Versie 2.7.5 - Release-update
+## Verbeteringen in V.2.7.6
+- [x] # Versie 2.7.6 - Release-update
 
 We zijn verheugd om enkele belangrijke verbeteringen en nieuwe functies aan te kondigen in deze release van ons project. Hier is een overzicht van de wijzigingen:
 
@@ -54,7 +58,7 @@ We hebben ervoor gezorgd dat de taalconfiguratie nu is opgeslagen in een JSON-be
 
 ### 2. Meertalige Ondersteuning
 
-Met trots introduceren we meertalige ondersteuning! Dankzij een toegevoegd stukje code ondersteunt het systeem nu Engels, Nederlands, Frans en Duits.
+Met trots introduceren we meertalige ondersteuning! Dankzij een toegevoegd stukje code ondersteunt het systeem nu Engels, Nederlands, Frans, Duits en spaans.
 
 ### 3. Verbeterde Prijsweergave
 
@@ -75,8 +79,8 @@ Een leuke bonusfunctie is toegevoegd! Nu worden kolombreedtes automatisch aangep
 We hopen dat deze wijzigingen de bruikbaarheid van het project verbeteren. Raadpleeg de README-file voor bijgewerkte documentatie en verdere informatie.
 
 <a id="French-mises-à-jour"></a>
-## Améliorations dans la version 2.7.5
-- [x] # Version 2.7.5 - Mise à jour de la version
+## Améliorations dans la version 2.7.6
+- [x] # Version 2.7.6 - Mise à jour de la version
 
 Nous sommes ravis d'annoncer quelques améliorations significatives et de nouvelles fonctionnalités dans cette version de notre projet. Voici un aperçu des changements :
 
@@ -88,7 +92,7 @@ Nous avons veillé à ce que la configuration de la langue soit maintenant stock
 
 ### 2. Support multilingue
 
-Nous introduisons fièrement le support multilingue ! Grâce à un morceau de code ajouté, le système prend désormais en charge l'anglais, le néerlandais, le français et l'allemand.
+Nous introduisons fièrement le support multilingue ! Grâce à un morceau de code ajouté, le système prend désormais en charge l'anglais, le néerlandais, le français, l'allemand et espagnol.
 
 ### 3. Affichage amélioré des prix
 
@@ -109,8 +113,8 @@ Une fonctionnalité bonus agréable a été ajoutée ! Maintenant, les largeurs 
 Nous espérons que ces changements améliorent la convivialité du projet. Consultez le fichier README pour une documentation mise à jour et des informations supplémentaires.
 
 <a id="German-aktualisierung"></a>
-## Verbesserungen in V.2.7.5
-- [x] # Version 2.7.5 - Versionsupdate
+## Verbesserungen in V.2.7.6
+- [x] # Version 2.7.6 - Versionsupdate
 
 Wir freuen uns, einige bedeutende Verbesserungen und neue Funktionen in diesem Release unseres Projekts anzukündigen. Hier ist eine Übersicht über die Änderungen:
 
@@ -122,7 +126,7 @@ Wir haben sicherzustellen, dass die Sprachkonfiguration nun in einer JSON-Datei 
 
 ### 2. Mehrsprachige Unterstützung
 
-Wir stellen stolz die mehrsprachige Unterstützung vor! Dank eines hinzugefügten Code-Stücks unterstützt das System jetzt Englisch, Niederländisch, Französisch und Deutsch.
+Wir stellen stolz die mehrsprachige Unterstützung vor! Dank eines hinzugefügten Code-Stücks unterstützt das System jetzt Englisch, Niederländisch, Französisch, Deutsch Spanisch.
 
 ### 3. Verbesserte Preisdarstellung
 
@@ -141,3 +145,37 @@ Wir haben die erforderlichen Bibliotheken aktualisiert und dem GitHub-Repository
 Eine nette Bonusfunktion wurde hinzugefügt! Jetzt werden die Spaltenbreiten automatisch an die Menge des angezeigten Textes angepasst, was für ein besseres Leseerlebnis sorgt.
 
 Wir hoffen, dass diese Änderungen die Benutzerfreundlichkeit des Projekts verbessern. Konsultieren Sie die README-Datei für aktualisierte Dokumentation und weitere Informationen.
+
+<a id="Actualizaciones-español"></a>
+## Mejoras en V.2.7.6
+- [x] # Versión 2.7.6 - Actualización de lanzamiento
+
+Nos complacemos anunciar algunas mejoramientos significativas y nuevas características de esa versión de nuestro proyecto.
+Aquí hay una descripción general de los cambios:
+
+## Principales cambios:
+
+### 1. Optimización del código
+
+Acabamos de asegurar que la configuración del idioma esta guardado en el archivo JSON. Esta optimización reduce el uso de datos innecesarios y mejora la eficiencia general del código.
+
+### 2. El apoyo multilingüe
+
+Es con mucho orgullo que ahora tenemos el apoyo multilingüe. Debido al parte del código que acabamos de actualizar, ya se puede apoyar la sistema los idiomas seguidos, Inglés, Holandés, Francés, Alemán, Y Español
+
+### 3. Las visualizaciones del precio mejorado
+
+Las visualizaciones del precio, especialmente con la organización de los precios bajos hasta los precios altos, ya esta en operación. Además, ya esta arreglado el error de mostrar los precios a costar $999 y ya se enseña los precios correctos de $9,99.
+
+### 4. Resolución de los problemas de los tratos gratuitos.
+
+No se mostraban bien los tratos gratuitos en la salida pedida, lo que provocaba problemas con el marco de datos. Para resolver eso, los tratos gratuitos ya no se muestran en la salida automáticamente. Todavía puedes incluir los tratos gratuitos en la configuración del enlace si es necesario. (Si hay un cambio de precio, deberías buscarlo en la salida)
+
+### 5. Los requisitos del actualización
+
+Acabamos de actualizar y sumir las bibliotecas requiridas al repositorio del Github. Asegúrate que esta instalado los últimos requiridos del sistema para utilizar todos los característicos que esta en oferta. Si es necesario,  asegúrate también que el conductor del Gecko esta instalado.
+
+### 6. El ajusto del ancho de los columnos automático
+
+Acabamos de poner otro característico adicional. Ahora, el ancho de los columnos se ajusta automáticamente según la cantidad de texto mostrado para garantizar una mejor experiencia de la lectura. 
+Esperamos que estos cambios mejoren la experiencia usuario del proyecto. Consulta el archivo de README para la documentación actualizada y para más información.
