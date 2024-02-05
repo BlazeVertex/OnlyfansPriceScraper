@@ -1,4 +1,7 @@
 > [!NOTE]
+> **pls use always the latest release of the project. Not what is curently in the repository!!!**
+
+> [!NOTE]
 > I used Python version 3.12.0
 
 > Current version V2.7.6
