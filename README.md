@@ -1,4 +1,7 @@
 > [!NOTE]
+> **I'm currently working on developing a GUI, but the development is temporarily halted because both of my laptops are broken.**
+
+> [!NOTE]
 > **pls use always the latest release of the project. Not what is curently in the repository!!!**
 
 > [!NOTE]
