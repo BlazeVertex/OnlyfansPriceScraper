@@ -7,7 +7,7 @@
 > [!NOTE]
 > I used Python version 3.12.0
 
-> Current version V2.7.6
+> Current version V2.8.2
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
