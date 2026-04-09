@@ -1,4 +1,5 @@
-openpyxl==3.1.2
-pandas==2.1.4
-prompt_toolkit==3.0.40
-selenium==4.15.2
+selenium
+openpyxl
+pandas
+prompt_toolkit
+tqdm
